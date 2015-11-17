@@ -1,0 +1,29 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Notification\"><param name=\"wp-package\" value=\"Notification\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "{d82d9120-8c52-11e5-90d1-6108ab4cd38e}"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "{d82d9120-8c52-11e5-90d1-6108ab4cd38e}"
+        }
+    },
+    "dependent_plugins": {}
+}

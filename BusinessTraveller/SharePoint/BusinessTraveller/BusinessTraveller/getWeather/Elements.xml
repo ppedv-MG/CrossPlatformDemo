@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="getWeather" Url="wfsvc/7af2a7156c1343848a74321342322c47">
+    <File Url="Workflow.xaml" Type="GhostableInLibrary" Path="getWeather\Workflow.xaml" DoGUIDFixUp="TRUE" ReplaceContent="TRUE">
+      <Property Name="ContentType" Value="WorkflowServiceDefinition" />
+      <Property Name="isReusable" Value="true" />
+      <Property Name="RequiresInitiationForm" Value="False" />
+      <Property Name="RequiresAssociationForm" Value="False" />
+      <Property Name="WSPublishState" Value="3" />
+      <Property Name="WSDisplayName" Value="getWeather" />
+      <Property Name="WSDescription" Value="My 'getWeather' Workflow" />
+      <!-- If you change the name or Url of your custom initiation or association form, 
+           remember to update the corresponding property value (InitiationUrl or AssociationUrl) to match the new web relative url.
+      -->
+      <Property Name="RestrictToType" Value="List" />
+      <Property Name="RestrictToScope" Value="{$ListId:Lists/Trips;}" />
+    </File>
+    <File Url="WorkflowStartAssociation" Path="getWeather\WorkflowStartAssociation" Type="GhostableInLibrary">
+      <Property Name="WSDisplayName" Value="getWeather - Workflow Start" />
+      <Property Name="ContentType" Value="WorkflowServiceSubscription" />
+      <Property Name="WSPublishState" Value="3" />
+      <Property Name="WSEventType" Value="WorkflowStart" />
+      <Property Name="WSEnabled" Value="true" />
+      <Property Name="WSGUID" Value="fe4b69ea-9a14-4dc5-8fdb-a81ee6f23117" />
+      <Property Name="WSEventSourceGUID" Value="{$ListId:Lists/Trips;}" />
+      <Property Name="Microsoft.SharePoint.ActivationProperties.ListId" Value="{$ListId:Lists/Trips;}" />
+      <Property Name="HistoryListId" Value="{$ListId:Lists/WorkflowHistoryList;}" />
+      <Property Name="TaskListId" Value="{$ListId:Lists/WorkflowTaskList;}" />
+    </File>
+    <File Url="ItemAddedAssociation" Path="getWeather\ItemAddedAssociation" Type="GhostableInLibrary">
+      <Property Name="WSDisplayName" Value="getWeather - Item Added" />
+      <Property Name="ContentType" Value="WorkflowServiceSubscription" />
+      <Property Name="WSPublishState" Value="3" />
+      <Property Name="WSEventType" Value="ItemAdded" />
+      <Property Name="WSEnabled" Value="true" />
+      <Property Name="WSGUID" Value="abcb9ae6-7902-4516-b262-ebb1e1ea45cd" />
+      <Property Name="WSEventSourceGUID" Value="{$ListId:Lists/Trips;}" />
+      <Property Name="Microsoft.SharePoint.ActivationProperties.ListId" Value="{$ListId:Lists/Trips;}" />
+      <Property Name="HistoryListId" Value="{$ListId:Lists/WorkflowHistoryList;}" />
+      <Property Name="TaskListId" Value="{$ListId:Lists/WorkflowTaskList;}" />
+    </File>
+  </Module>
+  <ListInstance FeatureId="{2c63df2b-ceab-42c6-aeff-b3968162d4b1}"
+                TemplateType="4501"
+                Title="wfsvc"
+                Description="This list instance is used by SharePoint to keep track of workflows. Do not modify."
+                Url="wfsvc"
+                RootWebOnly="FALSE" />
+</Elements>

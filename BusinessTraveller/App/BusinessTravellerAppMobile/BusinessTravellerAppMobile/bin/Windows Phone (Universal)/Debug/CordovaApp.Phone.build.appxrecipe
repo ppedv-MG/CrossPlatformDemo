@@ -1,0 +1,826 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MAG-SURFACE</Machine>
+    <WindowsUser>martin</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|arm</SolutionConfiguration>
+    <PackageArchitecture>arm</PackageArchitecture>
+    <PackageIdentityName>c3f29f60-8c53-11e5-8696-f33ca97e8965</PackageIdentityName>
+    <IntermediateOutputPath>C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\build\phone\bld\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\build\phone\debug\arm\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\images\SplashScreenPhone.scale-240.png">
+      <PackagePath>images\SplashScreenPhone.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\images\Square150x150Logo.scale-240.png">
+      <PackagePath>images\Square150x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\images\Square44x44Logo.scale-240.png">
+      <PackagePath>images\Square44x44Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\images\Square71x71Logo.scale-240.png">
+      <PackagePath>images\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\images\StoreLogo.scale-240.png">
+      <PackagePath>images\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\images\Wide310x150Logo.scale-240.png">
+      <PackagePath>images\Wide310x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\arrow-d-l-black.png">
+      <PackagePath>www\css\images\icons-png\arrow-d-l-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\arrow-d-l-white.png">
+      <PackagePath>www\css\images\icons-png\arrow-d-l-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\arrow-d-r-black.png">
+      <PackagePath>www\css\images\icons-png\arrow-d-r-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\arrow-d-r-white.png">
+      <PackagePath>www\css\images\icons-png\arrow-d-r-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\arrow-d-white.png">
+      <PackagePath>www\css\images\icons-png\arrow-d-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\arrow-l-black.png">
+      <PackagePath>www\css\images\icons-png\arrow-l-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\arrow-l-white.png">
+      <PackagePath>www\css\images\icons-png\arrow-l-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\arrow-r-black.png">
+      <PackagePath>www\css\images\icons-png\arrow-r-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\arrow-r-white.png">
+      <PackagePath>www\css\images\icons-png\arrow-r-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\arrow-u-black.png">
+      <PackagePath>www\css\images\icons-png\arrow-u-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\arrow-u-l-black.png">
+      <PackagePath>www\css\images\icons-png\arrow-u-l-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\arrow-u-l-white.png">
+      <PackagePath>www\css\images\icons-png\arrow-u-l-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\arrow-u-r-black.png">
+      <PackagePath>www\css\images\icons-png\arrow-u-r-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\arrow-u-r-white.png">
+      <PackagePath>www\css\images\icons-png\arrow-u-r-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\arrow-u-white.png">
+      <PackagePath>www\css\images\icons-png\arrow-u-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\audio-black.png">
+      <PackagePath>www\css\images\icons-png\audio-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\audio-white.png">
+      <PackagePath>www\css\images\icons-png\audio-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\back-black.png">
+      <PackagePath>www\css\images\icons-png\back-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\back-white.png">
+      <PackagePath>www\css\images\icons-png\back-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\bars-black.png">
+      <PackagePath>www\css\images\icons-png\bars-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\bars-white.png">
+      <PackagePath>www\css\images\icons-png\bars-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\bullets-black.png">
+      <PackagePath>www\css\images\icons-png\bullets-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\bullets-white.png">
+      <PackagePath>www\css\images\icons-png\bullets-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\calendar-black.png">
+      <PackagePath>www\css\images\icons-png\calendar-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\calendar-white.png">
+      <PackagePath>www\css\images\icons-png\calendar-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\camera-black.png">
+      <PackagePath>www\css\images\icons-png\camera-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\camera-white.png">
+      <PackagePath>www\css\images\icons-png\camera-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\carat-d-black.png">
+      <PackagePath>www\css\images\icons-png\carat-d-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\carat-d-white.png">
+      <PackagePath>www\css\images\icons-png\carat-d-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\carat-l-black.png">
+      <PackagePath>www\css\images\icons-png\carat-l-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\carat-l-white.png">
+      <PackagePath>www\css\images\icons-png\carat-l-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\carat-r-black.png">
+      <PackagePath>www\css\images\icons-png\carat-r-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\carat-r-white.png">
+      <PackagePath>www\css\images\icons-png\carat-r-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\carat-u-black.png">
+      <PackagePath>www\css\images\icons-png\carat-u-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\carat-u-white.png">
+      <PackagePath>www\css\images\icons-png\carat-u-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\check-black.png">
+      <PackagePath>www\css\images\icons-png\check-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\check-white.png">
+      <PackagePath>www\css\images\icons-png\check-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\clock-black.png">
+      <PackagePath>www\css\images\icons-png\clock-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\clock-white.png">
+      <PackagePath>www\css\images\icons-png\clock-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\cloud-black.png">
+      <PackagePath>www\css\images\icons-png\cloud-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\cloud-white.png">
+      <PackagePath>www\css\images\icons-png\cloud-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\comment-black.png">
+      <PackagePath>www\css\images\icons-png\comment-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\comment-white.png">
+      <PackagePath>www\css\images\icons-png\comment-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\delete-black.png">
+      <PackagePath>www\css\images\icons-png\delete-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\delete-white.png">
+      <PackagePath>www\css\images\icons-png\delete-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\edit-black.png">
+      <PackagePath>www\css\images\icons-png\edit-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\edit-white.png">
+      <PackagePath>www\css\images\icons-png\edit-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\eye-black.png">
+      <PackagePath>www\css\images\icons-png\eye-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\eye-white.png">
+      <PackagePath>www\css\images\icons-png\eye-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\forbidden-black.png">
+      <PackagePath>www\css\images\icons-png\forbidden-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\forbidden-white.png">
+      <PackagePath>www\css\images\icons-png\forbidden-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\forward-black.png">
+      <PackagePath>www\css\images\icons-png\forward-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\forward-white.png">
+      <PackagePath>www\css\images\icons-png\forward-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\gear-black.png">
+      <PackagePath>www\css\images\icons-png\gear-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\gear-white.png">
+      <PackagePath>www\css\images\icons-png\gear-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\grid-black.png">
+      <PackagePath>www\css\images\icons-png\grid-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\grid-white.png">
+      <PackagePath>www\css\images\icons-png\grid-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\heart-black.png">
+      <PackagePath>www\css\images\icons-png\heart-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\heart-white.png">
+      <PackagePath>www\css\images\icons-png\heart-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\home-black.png">
+      <PackagePath>www\css\images\icons-png\home-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\home-white.png">
+      <PackagePath>www\css\images\icons-png\home-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\info-black.png">
+      <PackagePath>www\css\images\icons-png\info-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\info-white.png">
+      <PackagePath>www\css\images\icons-png\info-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\location-black.png">
+      <PackagePath>www\css\images\icons-png\location-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\location-white.png">
+      <PackagePath>www\css\images\icons-png\location-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\lock-black.png">
+      <PackagePath>www\css\images\icons-png\lock-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\lock-white.png">
+      <PackagePath>www\css\images\icons-png\lock-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\mail-black.png">
+      <PackagePath>www\css\images\icons-png\mail-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\mail-white.png">
+      <PackagePath>www\css\images\icons-png\mail-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\minus-black.png">
+      <PackagePath>www\css\images\icons-png\minus-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\minus-white.png">
+      <PackagePath>www\css\images\icons-png\minus-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\navigation-black.png">
+      <PackagePath>www\css\images\icons-png\navigation-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\navigation-white.png">
+      <PackagePath>www\css\images\icons-png\navigation-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\phone-black.png">
+      <PackagePath>www\css\images\icons-png\phone-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\phone-white.png">
+      <PackagePath>www\css\images\icons-png\phone-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\plus-black.png">
+      <PackagePath>www\css\images\icons-png\plus-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\plus-white.png">
+      <PackagePath>www\css\images\icons-png\plus-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\power-black.png">
+      <PackagePath>www\css\images\icons-png\power-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\power-white.png">
+      <PackagePath>www\css\images\icons-png\power-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\recycle-black.png">
+      <PackagePath>www\css\images\icons-png\recycle-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\recycle-white.png">
+      <PackagePath>www\css\images\icons-png\recycle-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\refresh-black.png">
+      <PackagePath>www\css\images\icons-png\refresh-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\refresh-white.png">
+      <PackagePath>www\css\images\icons-png\refresh-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\search-black.png">
+      <PackagePath>www\css\images\icons-png\search-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\search-white.png">
+      <PackagePath>www\css\images\icons-png\search-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\shop-black.png">
+      <PackagePath>www\css\images\icons-png\shop-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\shop-white.png">
+      <PackagePath>www\css\images\icons-png\shop-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\star-black.png">
+      <PackagePath>www\css\images\icons-png\star-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\star-white.png">
+      <PackagePath>www\css\images\icons-png\star-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\tag-black.png">
+      <PackagePath>www\css\images\icons-png\tag-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\tag-white.png">
+      <PackagePath>www\css\images\icons-png\tag-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\user-black.png">
+      <PackagePath>www\css\images\icons-png\user-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\user-white.png">
+      <PackagePath>www\css\images\icons-png\user-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\video-black.png">
+      <PackagePath>www\css\images\icons-png\video-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-png\video-white.png">
+      <PackagePath>www\css\images\icons-png\video-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\plugins\cordova-plugin-dialogs\src\windows\NotificationProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-dialogs\src\windows\NotificationProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\plugins\cordova-plugin-dialogs\www\notification.js">
+      <PackagePath>www\plugins\cordova-plugin-dialogs\www\notification.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\angular-mocks.js">
+      <PackagePath>www\scripts\angular-mocks.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\angular-route.js">
+      <PackagePath>www\scripts\angular-route.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\angular-route.min.js">
+      <PackagePath>www\scripts\angular-route.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\angular.js">
+      <PackagePath>www\scripts\angular.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\angular.min.js">
+      <PackagePath>www\scripts\angular.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\appBundle.js">
+      <PackagePath>www\scripts\appBundle.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\handlebars.amd.js">
+      <PackagePath>www\scripts\handlebars.amd.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\handlebars.amd.min.js">
+      <PackagePath>www\scripts\handlebars.amd.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\handlebars.js">
+      <PackagePath>www\scripts\handlebars.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\handlebars.min.js">
+      <PackagePath>www\scripts\handlebars.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\handlebars.runtime.amd.js">
+      <PackagePath>www\scripts\handlebars.runtime.amd.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\handlebars.runtime.amd.min.js">
+      <PackagePath>www\scripts\handlebars.runtime.amd.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\handlebars.runtime.js">
+      <PackagePath>www\scripts\handlebars.runtime.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\handlebars.runtime.min.js">
+      <PackagePath>www\scripts\handlebars.runtime.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\jquery-2.1.4.intellisense.js">
+      <PackagePath>www\scripts\jquery-2.1.4.intellisense.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\jquery-2.1.4.js">
+      <PackagePath>www\scripts\jquery-2.1.4.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\jquery-2.1.4.min.js">
+      <PackagePath>www\scripts\jquery-2.1.4.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\jquery.mobile-1.4.5.js">
+      <PackagePath>www\scripts\jquery.mobile-1.4.5.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\jquery.mobile-1.4.5.min.js">
+      <PackagePath>www\scripts\jquery.mobile-1.4.5.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\action-black.svg">
+      <PackagePath>www\css\images\icons-svg\action-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\action-white.svg">
+      <PackagePath>www\css\images\icons-svg\action-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\alert-black.svg">
+      <PackagePath>www\css\images\icons-svg\alert-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\alert-white.svg">
+      <PackagePath>www\css\images\icons-svg\alert-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\arrow-d-black.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-d-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\arrow-d-l-black.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-d-l-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\arrow-d-l-white.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-d-l-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\arrow-d-r-black.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-d-r-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\arrow-d-r-white.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-d-r-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\arrow-d-white.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-d-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\arrow-l-black.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-l-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\arrow-l-white.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-l-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\arrow-r-black.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-r-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\arrow-r-white.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-r-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\arrow-u-black.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-u-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\arrow-u-l-black.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-u-l-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\arrow-u-l-white.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-u-l-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\arrow-u-r-black.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-u-r-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\arrow-u-r-white.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-u-r-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\arrow-u-white.svg">
+      <PackagePath>www\css\images\icons-svg\arrow-u-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\audio-black.svg">
+      <PackagePath>www\css\images\icons-svg\audio-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\audio-white.svg">
+      <PackagePath>www\css\images\icons-svg\audio-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\back-black.svg">
+      <PackagePath>www\css\images\icons-svg\back-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\back-white.svg">
+      <PackagePath>www\css\images\icons-svg\back-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\bars-black.svg">
+      <PackagePath>www\css\images\icons-svg\bars-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\bars-white.svg">
+      <PackagePath>www\css\images\icons-svg\bars-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\bullets-black.svg">
+      <PackagePath>www\css\images\icons-svg\bullets-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\bullets-white.svg">
+      <PackagePath>www\css\images\icons-svg\bullets-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\calendar-black.svg">
+      <PackagePath>www\css\images\icons-svg\calendar-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\calendar-white.svg">
+      <PackagePath>www\css\images\icons-svg\calendar-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\camera-black.svg">
+      <PackagePath>www\css\images\icons-svg\camera-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\camera-white.svg">
+      <PackagePath>www\css\images\icons-svg\camera-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\carat-d-black.svg">
+      <PackagePath>www\css\images\icons-svg\carat-d-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\carat-d-white.svg">
+      <PackagePath>www\css\images\icons-svg\carat-d-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\carat-l-black.svg">
+      <PackagePath>www\css\images\icons-svg\carat-l-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\carat-l-white.svg">
+      <PackagePath>www\css\images\icons-svg\carat-l-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\carat-r-black.svg">
+      <PackagePath>www\css\images\icons-svg\carat-r-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\carat-r-white.svg">
+      <PackagePath>www\css\images\icons-svg\carat-r-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\carat-u-black.svg">
+      <PackagePath>www\css\images\icons-svg\carat-u-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\carat-u-white.svg">
+      <PackagePath>www\css\images\icons-svg\carat-u-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\check-black.svg">
+      <PackagePath>www\css\images\icons-svg\check-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\check-white.svg">
+      <PackagePath>www\css\images\icons-svg\check-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\clock-black.svg">
+      <PackagePath>www\css\images\icons-svg\clock-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\clock-white.svg">
+      <PackagePath>www\css\images\icons-svg\clock-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\cloud-black.svg">
+      <PackagePath>www\css\images\icons-svg\cloud-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\cloud-white.svg">
+      <PackagePath>www\css\images\icons-svg\cloud-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\comment-black.svg">
+      <PackagePath>www\css\images\icons-svg\comment-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\comment-white.svg">
+      <PackagePath>www\css\images\icons-svg\comment-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\delete-black.svg">
+      <PackagePath>www\css\images\icons-svg\delete-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\delete-white.svg">
+      <PackagePath>www\css\images\icons-svg\delete-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\edit-black.svg">
+      <PackagePath>www\css\images\icons-svg\edit-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\edit-white.svg">
+      <PackagePath>www\css\images\icons-svg\edit-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\eye-black.svg">
+      <PackagePath>www\css\images\icons-svg\eye-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\eye-white.svg">
+      <PackagePath>www\css\images\icons-svg\eye-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\forbidden-black.svg">
+      <PackagePath>www\css\images\icons-svg\forbidden-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\forbidden-white.svg">
+      <PackagePath>www\css\images\icons-svg\forbidden-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\forward-black.svg">
+      <PackagePath>www\css\images\icons-svg\forward-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\forward-white.svg">
+      <PackagePath>www\css\images\icons-svg\forward-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\gear-black.svg">
+      <PackagePath>www\css\images\icons-svg\gear-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\gear-white.svg">
+      <PackagePath>www\css\images\icons-svg\gear-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\grid-black.svg">
+      <PackagePath>www\css\images\icons-svg\grid-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\grid-white.svg">
+      <PackagePath>www\css\images\icons-svg\grid-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\heart-black.svg">
+      <PackagePath>www\css\images\icons-svg\heart-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\heart-white.svg">
+      <PackagePath>www\css\images\icons-svg\heart-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\home-black.svg">
+      <PackagePath>www\css\images\icons-svg\home-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\home-white.svg">
+      <PackagePath>www\css\images\icons-svg\home-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\info-black.svg">
+      <PackagePath>www\css\images\icons-svg\info-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\info-white.svg">
+      <PackagePath>www\css\images\icons-svg\info-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\location-black.svg">
+      <PackagePath>www\css\images\icons-svg\location-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\location-white.svg">
+      <PackagePath>www\css\images\icons-svg\location-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\lock-black.svg">
+      <PackagePath>www\css\images\icons-svg\lock-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\lock-white.svg">
+      <PackagePath>www\css\images\icons-svg\lock-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\mail-black.svg">
+      <PackagePath>www\css\images\icons-svg\mail-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\mail-white.svg">
+      <PackagePath>www\css\images\icons-svg\mail-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\minus-black.svg">
+      <PackagePath>www\css\images\icons-svg\minus-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\minus-white.svg">
+      <PackagePath>www\css\images\icons-svg\minus-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\navigation-black.svg">
+      <PackagePath>www\css\images\icons-svg\navigation-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\navigation-white.svg">
+      <PackagePath>www\css\images\icons-svg\navigation-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\phone-black.svg">
+      <PackagePath>www\css\images\icons-svg\phone-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\phone-white.svg">
+      <PackagePath>www\css\images\icons-svg\phone-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\plus-black.svg">
+      <PackagePath>www\css\images\icons-svg\plus-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\plus-white.svg">
+      <PackagePath>www\css\images\icons-svg\plus-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\power-black.svg">
+      <PackagePath>www\css\images\icons-svg\power-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\power-white.svg">
+      <PackagePath>www\css\images\icons-svg\power-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\recycle-black.svg">
+      <PackagePath>www\css\images\icons-svg\recycle-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\recycle-white.svg">
+      <PackagePath>www\css\images\icons-svg\recycle-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\refresh-black.svg">
+      <PackagePath>www\css\images\icons-svg\refresh-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\refresh-white.svg">
+      <PackagePath>www\css\images\icons-svg\refresh-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\search-black.svg">
+      <PackagePath>www\css\images\icons-svg\search-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\search-white.svg">
+      <PackagePath>www\css\images\icons-svg\search-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\shop-black.svg">
+      <PackagePath>www\css\images\icons-svg\shop-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\shop-white.svg">
+      <PackagePath>www\css\images\icons-svg\shop-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\star-black.svg">
+      <PackagePath>www\css\images\icons-svg\star-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\star-white.svg">
+      <PackagePath>www\css\images\icons-svg\star-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\tag-black.svg">
+      <PackagePath>www\css\images\icons-svg\tag-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\tag-white.svg">
+      <PackagePath>www\css\images\icons-svg\tag-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\user-black.svg">
+      <PackagePath>www\css\images\icons-svg\user-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\user-white.svg">
+      <PackagePath>www\css\images\icons-svg\user-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\video-black.svg">
+      <PackagePath>www\css\images\icons-svg\video-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\images\icons-svg\video-white.svg">
+      <PackagePath>www\css\images\icons-svg\video-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\jquery.mobile-1.4.5.css">
+      <PackagePath>www\css\jquery.mobile-1.4.5.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\jquery.mobile-1.4.5.min.css">
+      <PackagePath>www\css\jquery.mobile-1.4.5.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\jquery.mobile.external-png-1.4.5.css">
+      <PackagePath>www\css\jquery.mobile.external-png-1.4.5.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\jquery.mobile.external-png-1.4.5.min.css">
+      <PackagePath>www\css\jquery.mobile.external-png-1.4.5.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\jquery.mobile.icons-1.4.5.css">
+      <PackagePath>www\css\jquery.mobile.icons-1.4.5.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\jquery.mobile.icons-1.4.5.min.css">
+      <PackagePath>www\css\jquery.mobile.icons-1.4.5.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\jquery.mobile.inline-png-1.4.5.css">
+      <PackagePath>www\css\jquery.mobile.inline-png-1.4.5.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\jquery.mobile.inline-png-1.4.5.min.css">
+      <PackagePath>www\css\jquery.mobile.inline-png-1.4.5.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\jquery.mobile.inline-svg-1.4.5.css">
+      <PackagePath>www\css\jquery.mobile.inline-svg-1.4.5.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\jquery.mobile.inline-svg-1.4.5.min.css">
+      <PackagePath>www\css\jquery.mobile.inline-svg-1.4.5.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\jquery.mobile.structure-1.4.5.css">
+      <PackagePath>www\css\jquery.mobile.structure-1.4.5.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\jquery.mobile.structure-1.4.5.min.css">
+      <PackagePath>www\css\jquery.mobile.structure-1.4.5.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\jquery.mobile.theme-1.4.5.css">
+      <PackagePath>www\css\jquery.mobile.theme-1.4.5.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\jquery.mobile.theme-1.4.5.min.css">
+      <PackagePath>www\css\jquery.mobile.theme-1.4.5.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\css\topcoat-mobile-light.css">
+      <PackagePath>www\css\topcoat-mobile-light.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\angular-route.min.js.map">
+      <PackagePath>www\scripts\angular-route.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\angular.min.js.map">
+      <PackagePath>www\scripts\angular.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\appBundle.js.map">
+      <PackagePath>www\scripts\appBundle.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\jquery-2.1.4.min.map">
+      <PackagePath>www\scripts\jquery-2.1.4.min.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\www\scripts\jquery.mobile-1.4.5.min.map">
+      <PackagePath>www\scripts\jquery.mobile-1.4.5.min.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\build\phone\debug\arm\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\">
+      <Name>Microsoft.Phone.WinJS.2.1</Name>
+      <Version>1.0.9651.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Phone.WinJS.2.1, MinVersion=1.0.9651.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\Microsoft.Phone.WinJS.2.1.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

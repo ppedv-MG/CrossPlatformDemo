@@ -1,0 +1,1 @@
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\CordovaApp.Phone.jsproj;arm

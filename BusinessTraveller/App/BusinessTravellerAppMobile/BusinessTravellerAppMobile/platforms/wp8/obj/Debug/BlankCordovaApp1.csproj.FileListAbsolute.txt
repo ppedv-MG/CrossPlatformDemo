@@ -1,0 +1,15 @@
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\wp8\Bin\Debug\ApplicationIcon.png
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\wp8\Bin\Debug\Background.png
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\wp8\Bin\Debug\io.cordova.myapp6ea9b3.dll
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\wp8\Bin\Debug\io.cordova.myapp6ea9b3.pdb
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\wp8\Bin\Debug\AppManifest.xaml
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\wp8\obj\Debug\App.g.cs
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\wp8\obj\Debug\Plugins\cordova-plugin-dialogs\NotificationBox.g.cs
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\wp8\obj\Debug\MainPage.g.cs
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\wp8\obj\Debug\io.cordova.myapp6ea9b3.g.resources
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\wp8\obj\Debug\io.cordova.myapp6ea9b3.dll
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\wp8\obj\Debug\io.cordova.myapp6ea9b3.pdb
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\wp8\obj\Debug\XapCacheFile.xml

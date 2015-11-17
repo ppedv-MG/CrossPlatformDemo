@@ -1,0 +1,17 @@
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\build\phone\debug\arm\resources.pri
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\build\phone\debug\arm\AppxManifest.xml
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\build\phone\debug\arm\CordovaApp.Phone.build.appxrecipe
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\build\phone\bld\priconfig.xml
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\build\phone\bld\priconfig.xml.intermediate
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\build\phone\bld\layout.resfiles
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\build\phone\bld\layout.resfiles.intermediate
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\build\phone\bld\resources.resfiles
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\build\phone\bld\resources.resfiles.intermediate
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\build\phone\bld\pri.resfiles
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\build\phone\bld\pri.resfiles.intermediate
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\build\phone\bld\qualifiers.txt
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\build\phone\bld\qualifiers.txt.intermediate
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\build\phone\bld\MultipleQualifiersPerDimensionFound.txt
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\build\phone\bld\ProjectArchitectures.txt
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\build\phone\bld\package.map.txt
+C:\TFS\martin_groblschegg_at\Demo\ServerSummit_XPlatform\BusinessTraveller\App\BusinessTravellerAppMobile\BusinessTravellerAppMobile\platforms\windows\build\phone\bld\_pkginfo.txt

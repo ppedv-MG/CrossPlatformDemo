@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <title>BlankCordovaApp1</title>
+
+    <!-- BlankCordovaApp1 references -->
+    <link href="css/index.css" rel="stylesheet" />
+
+    <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+    <link href="css/topcoat-mobile-light.css" rel="stylesheet" />
+</head>
+<body>
+   
+
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/jquery.mobile-1.4.5.js"></script>
+    <script src="cordova.js"></script>
+    <script src="scripts/handlebars.js"></script>
+
+
+    <script src="scripts/platformOverrides.js"></script>
+    <script src="scripts/appBundle.js"></script>
+
+    <!--
+        PAGE MAIN
+    -->
+
+    <div data-role="page" id="pageMain">
+        <div data-role="header">
+            <h1>Business Traveller 0.1</h1>
+        </div>
+        <a href="#pageAdd" class="ui-btn ui-btn-inline ui-icon-plus ui-btn-icon-left">neuer Eintrag</a>
+        <div data-role="main" class="ui-content">
+                    
+            <ul id="tripslist" data-role="listview">
+
+            </ul>
+        </div>
+        <div data-role="footer">
+            
+            <a href="#pageLogin" class="ui-btn ui-btn-inline ui-icon-check ui-btn-icon-left">Login</a>
+
+            <a href="#pageLogout" class="ui-btn ui-btn-inline ui-icon-delete ui-btn-icon-left">Logout</a>
+            <div id="status"></div>
+        </div>
+    </div>
+
+
+    <!--
+            PAgE ADD
+    -->
+    <div data-role="page" id="pageAdd">
+        <div data-role="header">
+            <h1>Business Traveller 0.1</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+
+            
+        </div>
+        <div data-role="footer">
+            <form>
+                <label for="Title">Titel</label>
+                <input name="Title" id="Title" type="text" value="" data-clear-btn="true">
+
+                <label for="Start">Start</label>
+                <input name="Start" id="Start" type="date" value="" data-clear-btn="true">
+
+                <label for="End">End</label>
+                <input name="End" id="End" type="date" value="" data-clear-btn="true">
+
+                <label for="City">City</label>
+                <input name="City" id="City" type="text" value="" data-clear-btn="true">
+               
+            </form>
+
+            <a id="btSave" class="ui-btn ui-btn-inline ui-icon-check ui-btn-icon-left">save</a>
+
+            <a class="ui-btn ui-btn-inline ui-icon-home ui-btn-icon-left" href="#pageMain">Back</a>
+
+        </div>
+
+
+    </div>
+
+
+    <!--
+          LOGIN PAGE 
+    -->
+    <div data-role="page" id="pageLogin" data-dialog="true" >
+        <div data-role="header">
+            <h1>Business Traveller 0.1</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <p>Anmelden an SharePoint</p>
+            <form>
+                <label for="txtUser">User</label>
+                <input name="txtUser" id="txtUser" type="text" value="" data-clear-btn="true">
+                <label for="txtPWD">PWD:</label>
+                <input name="txtPWD" id="txtPWD" type="password" value="" data-clear-btn="true">
+
+
+            </form>
+            
+            
+            
+            <a id="btLogin" class="ui-btn ui-btn-inline ui-icon-check ui-btn-icon-left">login</a>
+
+            <a class="ui-btn ui-btn-inline ui-icon-home ui-btn-icon-left" href="#pageMain">Back</a>
+
+        </div>
+        <div data-role="footer">
+            
+            (c) by me
+        </div>
+    </div>
+    
+    <!--  
+    
+            LOG OUT PAGE 
+        
+    -->
+
+    <div data-role="page" id="pageLogout" data-dialog="true">
+        <div data-role="header">
+            <h1>Business Traveller 0.1</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <p>Abmelden?</p>
+           
+            <a id="btLogout" class="ui-btn ui-btn-inline ui-icon-delete ui-btn-icon-left">logout</a>
+            <a class="ui-btn ui-btn-inline ui-icon-home ui-btn-icon-left" href="#pageMain">Back</a>
+
+        </div>
+        <div data-role="footer">
+            <a hrf="#pageMain">back</a>
+            (c) by me
+        </div>
+    </div>
+
+
+    <!--
+        HANDLEBAR TEMPLATES
+
+    -->
+    <script id="tripItemtpl" type="text/x-handlebars-template">      
+            {{#.}}
+            <li>
+                <h2>{{Title}}</h2>
+                <p>{{ShortDate Start}} - {{ShortDate End}}</p>
+                <p>{{Location}}<p/>
+            </li>
+            {{/.}}
+
+</script>
+
+    <script id="addnew-tpl" type="text/x-handlebars-template">
+        <div class="topcoat-navigation-bar">
+            <div class="topcoat-navigation-bar__item center full">
+                <h1 class="topcoat-navigation-bar__title">Urlaubsliste</h1>
+            </div>
+        </div>
+        <br />
+        Titel: <input type="text" id="Title" class="topcoat-text-input" /><br />
+        Von: <input type="date" id="Start" class="topcoat-text-input" /><br/>
+        Bis: <input type="date" id="End" class="topcoat-text-input" />
+        Ort: <input type="text" id="Location" class="topcoat-text-input" /><br />
+
+        <br />
+        <div class="button-bar">
+            <input type ="button" id="save" class="topcoat-button" value="speichern"/>
+        </div>
+
+    </script>
+
+
+</body>
+</html>
